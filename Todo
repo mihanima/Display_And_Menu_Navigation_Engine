@@ -1,1 +1,12 @@
-1) import old project
+1) import old project :fin:
+2)add frame name to timer  and let frames change it from display
+3) on frame changing give last finished screenshot to display and make getLastShotFromPreviousFrame method for better animation
+4)DamnCollisionClass make abstract,change onCollision method on abstract ,it decides what to do on collisions with different objects and another function to calculate last position before colliding because its not every time needed
+5)check DamnCollisionClass on properly working collisions reports and last pos before collision
+6)add in Collision class method onMouseClick and modify frame and display for that 
+7)rewrite TextureLoader to be static with thread on downloading with extending fileLoader with orders dispenser 
+8)write the same with sound as with textures
+9)delete setTexturesMethod in Frame
+10)repackage project
+11)add isometric Class module with sorting objects for drawing,and for grid collision system
+12)add module animation system
